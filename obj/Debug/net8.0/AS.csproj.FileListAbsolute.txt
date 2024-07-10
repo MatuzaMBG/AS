@@ -12,3 +12,4 @@ C:\Users\mateu\OneDrive\Ambiente de Trabalho\Laboratorio de programação\AS\obj
 C:\Users\mateu\OneDrive\Ambiente de Trabalho\Laboratorio de programação\AS\obj\Debug\net8.0\AS.pdb
 C:\Users\mateu\OneDrive\Ambiente de Trabalho\Laboratorio de programação\AS\obj\Debug\net8.0\AS.genruntimeconfig.cache
 C:\Users\mateu\OneDrive\Ambiente de Trabalho\Laboratorio de programação\AS\obj\Debug\net8.0\ref\AS.dll
+C:\Users\mateu\OneDrive\Ambiente de Trabalho\Laboratorio de programação\AS\obj\Debug\net8.0\AS.sourcelink.json

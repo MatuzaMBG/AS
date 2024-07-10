@@ -33,7 +33,7 @@ while (sair)
             AdicionarProjetos(empresa);
             break;
         case 6:
-            sair = true;
+            sair = false;
             break;
         default:
             Console.WriteLine("Opção inválida!");
@@ -61,7 +61,7 @@ static void AdicionarFuncionarioMeioPeriodo(Empresa empresa)
     Console.Write("Matrícula: ");
     int matricula = Convert.ToInt32(Console.ReadLine()!);
     Console.Write("Salário por Hora: ");
-    double salarioPorHora = double.Parse(Console.ReadLine()!);
+    double salarioPorHora = Convert.ToDouble(Console.ReadLine()!);
     Console.Write("Horas Trabalhadas: ");
     int horasTrabalhadas = Convert.ToInt32(Console.ReadLine()!);
 
@@ -85,7 +85,7 @@ static void AdicionarProjetos(Empresa empresa)
     if (funcionario != null)
     {
         Console.Write("Digite o número de projetos a serem adicionados: ");
-        int numeroProjetos = int.Parse(Console.ReadLine()!);
+        int numeroProjetos = Convert.ToInt32(Console.ReadLine()!);
 
         for (int i = 0; i < numeroProjetos; i++)
         {

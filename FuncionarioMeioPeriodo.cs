@@ -15,7 +15,7 @@ public class FuncionarioMeioPeriodo : Funcionario, IBonus
     {
         Console.WriteLine($"Nome do Funcionario em tempo integral: {nome}");
         Console.WriteLine($"Número da matricula: {matricula}");
-        Console.WriteLine($"Salario por hora: {CalcularSalario}.");
+        Console.WriteLine($"Salario por hora: {CalcularSalario()}.");
         Console.WriteLine($"Número de horas trabalhadas {nHorasTrabalhadas}");
         
     }
